@@ -414,29 +414,30 @@ a.btn-download.btn-secondary {
 }
 
 .hero-title {
-    font-size: 32px;
+    font-size: clamp(1.5rem, 8vw, 46px); /* Responsive font scaling */
+    line-height: 1.18;
+    margin-bottom: 2rem;
     font-weight: 600;
-    line-height: 88.889%;
-    margin-bottom: var(--spacing-xl);
     color: var(--text-primary);
     text-transform: none;
     font-stretch: semi-condensed;
     letter-spacing: -1%;
 }
 
-@media (min-width: 600px) {
-    .hero-title {
-        font-size: 72px;
-        line-height: 97.222%;
-    }
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: clamp(1.3rem, 7vw, 28px);
+    line-height: 1.13;
+  }
 }
 
-@media (min-width: 1012px) {
-    .hero-title {
-        font-size: 124px;
-        line-height: 115px;
-    }
+@media (max-width: 400px) {
+  .hero-title {
+    font-size: 1.1rem;
+    line-height: 1.1;
+  }
 }
+
 
 .highlight {
     color: var(--accent-primary);
@@ -1229,10 +1230,4 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--border-hover);
 }
-
-.hero-title {
-    font-size: 46px !important;
-    line-height: 1.4 !important;
-    margin-bottom: 2rem;
-  }
-  
+
