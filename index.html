@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Iyad's Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VCROSDMono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">sheikh_iyad</span>
+      </div>
+      <div class="nav-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+            <div class="nav-actions">
+                <a href="#contact"><button class="btn-primary">Get in Touch</button></a>
+                <a href="resume.pdf" download="Sheikh_Iyad_Resume.pdf" class="btn-secondary btn-download">
+                                <span class="download-icon" aria-hidden="true"></span>
+                                <span class="download-text">Download<br>Resume</span>
+                        </a>
+    </div>
+
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="final.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="hero-container">
+      <div class="hero-dates">
+        <span class="date-text">ASPIRING NETWORK EXPERT</span>
+        <span class="location-text">SRINAGAR, INDIA</span>
+      </div>
+      <h1 class="hero-title">
+        Pinging Iyad with 32 bytes of data<br>
+        <span class="highlight">Reply from Iyad: bytes=32 time=5ms TTL=64</span>
+        <span class="cursor"></span>
+      </h1>
+      <div class="hero-subtitle">
+        Networking solutions, from homelabs to large-scale cloud networks.
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-column">
+          <h2 class="section-title"><center>Skills</center></h2>
+          <ul class="feature-list">
+            <li>Network topology design and implementation</li>
+            <li>RIPv2, OSPF, and advanced routing protocols</li>
+            <li>VLAN configuration and subnetting expertise</li>
+            <li>Multi-VLAN homelab environment setup</li>
+            <li>Virtual machine deployment and management</li>
+            <li>Firewall configuration and security</li>
+            <li>Wireshark packet analysis and troubleshooting</li>
+            <li>IoT device integration and automation</li>
+          </ul>
+          <div class="cta-section">
+            <h3>Ready to collaborate?</h3>
+            <p>Feel free to collaborate!</p>
+            <button class="btn-primary">GET IN TOUCH</button>
+          </div>
+        </div>
+        <div class="about-column center-column">
+          <h2 class="section-title"><center>Certifications & Education</center></h2>
+          <ul class="feature-list">
+            <li>Cisco Packet Tracer Lab Experience</li>
+            <li>Wireshark Fundamentals (Self-Learning)</li>
+            <li>Cisco Networking Basics</li>
+            <li>Bachelor's in Computer Science (Pursuing)</li>
+            <li>Central University of Kashmir, Srinagar</li>
+          </ul>
+          <div class="cta-section">
+            <h3>Ready to collaborate?</h3>
+            <p>Let's discuss how we can build something amazing together.</p>
+            <button class="btn-primary">GET IN TOUCH</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Projects Section -->
+   <section id="projects" class="projects">
+    <div class="container">
+        <center><h2 class="section-title">Featured Projects</h2></center>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="network.png" alt="University Network" class="project-img" />
+                </div>
+                <div class="project-content">
+                    <center><h3>University Topology Network Design</h3></center>
+                    <p>Comprehensive network diagram implementing RIPv2 routing, subnetting, VLANs, L3/L2 switches, routers, DHCP servers, HTTP and FTP services for educational infrastructure.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">RIPv2</span>
+                        <span class="tech-tag">VLANs</span>
+                        <span class="tech-tag">Subnetting</span>
+                        <span class="tech-tag">DHCP</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Network Diagram</a>
+                        <a href="#" class="project-link">Documentation</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="homelab.png" alt="Homelab Setup" class="project-img" />
+                </div>
+                <div class="project-content">
+                    <center><h3>Multi-VLAN Homelab Environment</h3></center>
+                    <p>Designed and configured a comprehensive homelab network with admin, IT, and guest VLANs. Deployed virtual machines and tested routing, switching, and firewall configurations.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">VLANs</span>
+                        <span class="tech-tag">VMware</span>
+                        <span class="tech-tag">Firewall</span>
+                        <span class="tech-tag">Routing</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Lab Setup</a>
+                        <a href="#" class="project-link">Configurations</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="iot.png" alt="IoT Network" class="project-img" />
+                </div>
+                <div class="project-content">
+                    <center><h3>IoT Prototype Network</h3></center>
+                    <p>Built IoT prototypes using Arduino and sensors (temperature, motion) with network connectivity for remote monitoring and automation. Experimented with motor drivers and robotics controllers.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">IoT</span>
+                        <span class="tech-tag">Sensors</span>
+                        <span class="tech-tag">Automation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Prototype Demo</a>
+                        <a href="#" class="project-link">Code Repository</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="wireshark.png" alt="Wireshark Analysis" class="project-img" />
+                </div>
+                <div class="project-content">
+                    <center><h3>Network Traffic Analysis</h3></center>
+                    <p>Captured and analyzed real-time network traffic using Wireshark to identify protocols, ARP requests, and HTTP communications. Investigated anomalies for cybersecurity insights.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Wireshark</span>
+                        <span class="tech-tag">Packet Analysis</span>
+                        <span class="tech-tag">Cybersecurity</span>
+                        <span class="tech-tag">Protocols</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">Analysis Reports</a>
+                        <a href="#" class="project-link">Capture Files</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <center><h2 class="section-title">Technical Skills</h2></center>
+        <div class="skills-content">
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <h3>Network Protocols & Routing</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">RIPv2</span>
+                        <span class="skill-item">OSPF</span>
+                        <span class="skill-item">EIGRP</span>
+                        <span class="skill-item">BGP</span>
+                        <span class="skill-item">TCP/IP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Network Infrastructure</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">VLANs</span>
+                        <span class="skill-item">Subnetting</span>
+                        <span class="skill-item">DHCP</span>
+                        <span class="skill-item">DNS</span>
+                        <span class="skill-item">Firewalls</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Network Analysis & Security</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Wireshark</span>
+                        <span class="skill-item">Packet Analysis</span>
+                        <span class="skill-item">Cybersecurity</span>
+                        <span class="skill-item">Network Monitoring</span>
+                        <span class="skill-item">Troubleshooting</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Virtualization & IoT</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">VMware</span>
+                        <span class="skill-item">Virtual Machines</span>
+                        <span class="skill-item">Arduino</span>
+                        <span class="skill-item">IoT Sensors</span>
+                        <span class="skill-item">Automation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Certifications & Education Section -->
+<section id="certifications" class="certifications">
+    <div class="container">
+        <center><h2 class="section-title">Certifications & Education</h2></center>
+        <div class="certifications-content">
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="cert-icon">🏆</div>
+                    <h3>Cisco Packet Tracer</h3>
+                    <p>Lab Experience</p>
+                    <span class="cert-status">Completed</span>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon">🔍</div>
+                    <h3>Wireshark Fundamentals</h3>
+                    <p>Self-Learning</p>
+                    <span class="cert-status">Completed</span>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon">🌐</div>
+                    <h3>Cisco Networking Basics</h3>
+                    <p>Foundation Course</p>
+                    <span class="cert-status">Completed</span>
+                </div>
+            </div>
+            <div class="education-section">
+                <div class="education-card">
+                    <div class="edu-icon">🎓</div>
+                    <div class="edu-content">
+                        <h3>Bachelor's in Computer Science</h3>
+                        <p class="edu-institution">Central University of Kashmir</p>
+                        <p class="edu-location">Srinagar, India</p>
+                        <span class="edu-status">Pursuing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <center><h2 class="section-title">Let's Connect</h2></center>   
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Ready to collaborate?</h3>
+                <p>I'm always excited to work on new projects and explore innovative solutions. Let's discuss how we can build something amazing together.</p>
+                <div class="contact-methods">
+    <a href="mailto:sheikhiyad60@gmail.com" class="contact-method">
+        <span class="contact-icon">📧</span>
+        <span>sheikhiyad60@gmail.com</span>
+    </a>
+    <a href="https://linkedin.com/in/sheikhiyad" class="contact-method" target="_blank" rel="noopener noreferrer">
+        <span class="contact-icon">💼</span>
+        <span>LinkedIn Profile</span>
+    </a>
+    <a href="https://github.com/sheikhiyad" class="contact-method" target="_blank" rel="noopener noreferrer">
+        <span class="contact-icon">🐙</span>
+        <span>GitHub Profile</span>
+    </a>
+    <a href="resume.pdf" download="Sheikh_Iyad_Resume.pdf" class="contact-method contact-method-download">
+        <span class="contact-icon">📄</span>
+        <span>Download Resume</span>
+    </a>
+</div>
+
+            </div>
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xrbozoae" method="POST" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-large">Send Message</button>
+                    <p id="formStatus" style="margin-top: 1rem; color: var(--accent-primary); display: none;"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-left">
+          <span class="footer-logo">Iyad Imtiyaz Sheikh</span>
+          <p>Building robust networks, one configuration at a time.</p>
+        </div>
+        <div class="footer-right">
+          <div class="social-links">
+            <a href="https://github.com/sheikhiyad" class="social-link">GitHub</a>
+            <a href="https://linkedin.com/in/sheikhiyad" class="social-link">LinkedIn</a>
+            <a href="mailto:sheikhiyad60@gmail.com" class="social-link">Email</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; Iyad's Portfolio.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
